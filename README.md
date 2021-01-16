@@ -8,15 +8,15 @@ The only lead she had for her story was a large Javascript file filled with many
 
 Dana's goal became to create an interactive webpage that allows readers to parse the data around UFO sightings. So, she essentially needed to build two things: 
 
-    - the webpage that will allow users to view the data (with HTML) and;
-    - a dynamic table that will present it (with JavaScript).
+* the webpage that will allow users to view the data (with HTML) and;
+* a dynamic table that will present it (with JavaScript).
     
 Using JavasScript, we orignally structured the site to display and filter that data in a table based on a users search of a specific date. We later came to the realization however that we could filter the data even more based on the following criteria;
    
-    * City
-    * State
-    * Country
-    * Shape (of the UFO sighting) 
+* City
+* State
+* Country
+* Shape (of the UFO sighting) 
 
 We decided it would benefit potential users to be able to filter data based on these criteria as well as the date, so we restructed our code in our HTML.index and app.js file so that they would be able to do so. 
 
@@ -57,20 +57,20 @@ However, with our new filters, users can get more specific to narrow down the am
 
 While our page is much more search friendly than our previous effort, some drawbacks from its design in its current state are;
     
-    * It's still a tad boring as a site overall.  
-    * The our data only covers the month of January in 2010, but nowhere on our page do we specify that. 
-    * There is a "duration" criteria in our table but we don't have a filter for that due to the lack of uniformity in our      
-      original data.js file. 
-    * There is also a "comment" criteria, but the information in it is very lacking. 
+* It's still a tad boring as a site overall.  
+* The our data only covers the month of January in 2010, but nowhere on our page do we specify that. 
+* There is a "duration" criteria in our table but we don't have a filter for that due to the lack of uniformity in our      
+  original data.js file. 
+* There is also a "comment" criteria, but the information in it is very lacking. 
     
 In order to address these issues, I would recommend the following to enhance our page further. 
 
-    * Think of some more dynamic ways enhance the overall design of our page
-    * Until we get more/new data added to our data.js file, specify on our page the timeline of searchable dates so users don't
-      assume our page contains ALL recorded UFO sightings. 
-    * Clean up the "duration" data and add a filter for this as well. 
-    * For the "comment" criteria, perhaps adding a link to any online articles related to these sightings so users can easily   
-      access more information on them. 
+* Think of some more dynamic ways enhance the overall design of our page
+* Until we get more/new data added to our data.js file, specify on our page the timeline of searchable dates so users don't
+  assume our page contains ALL recorded UFO sightings. 
+* Clean up the "duration" data and add a filter for this as well. 
+* For the "comment" criteria, perhaps adding a link to any online articles related to these sightings so users can easily   
+  access more information on them. 
     
     
     
